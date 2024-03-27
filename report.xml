@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="15" skipped="0" failures="0" errors="0" time="0.045899" timestamp="2024-03-27T11:23:27-03:00" hostname="Meruty">
+<properties>
+<property name="seed" value="32427"/>
+</properties>
+<testcase classname="spec.Toyota_spec" name="ToyotaCarList Deve ser adicionado um novo carro" file="./spec/Toyota_spec.rb" time="0.014739"></testcase>
+<testcase classname="spec.Toyota_spec" name="ToyotaCarList Deve add uma lista de Car" file="./spec/Toyota_spec.rb" time="0.008169"></testcase>
+<testcase classname="spec.Toyota_spec" name="ToyotaCarList Celica deve ser o 1 da lista" file="./spec/Toyota_spec.rb" time="0.007583"></testcase>
+<testcase classname="spec.Toyota_spec" name="ToyotaCarList Deve conter a kmh max dos carros" file="./spec/Toyota_spec.rb" time="0.006935"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor e positivo deve retornar o saldo atual da conta" file="./spec/bank/saque_cc_spec.rb" time="0.001727"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo e 0 Não deve ser possível sacar da conta" file="./spec/bank/saque_cc_spec.rb" time="0.000065"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo e 0 O saldo deve permanecer com o valor inicial" file="./spec/bank/saque_cc_spec.rb" time="0.000043"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Quando o saldo e insuficiente Não deve ser possivel receber o valor pedido" file="./spec/bank/saque_cc_spec.rb" time="0.001622"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque O limite de saque foi atingido, Limite de saque e de R$ 750.00" file="./spec/bank/saque_cc_spec.rb" time="0.000052"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor e positivo deve retornar o saldo atual da conta" file="./spec/bank/saque_cp_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo e 0 Não deve ser possível sacar da conta" file="./spec/bank/saque_cp_spec.rb" time="0.000044"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo e 0 O saldo deve permanecer com o valor inicial" file="./spec/bank/saque_cp_spec.rb" time="0.000039"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Quando o saldo e insuficiente Não deve ser possivel receber o valor pedido" file="./spec/bank/saque_cp_spec.rb" time="0.000040"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque O limite de saque foi atingido, Limite de saque e de R$ 500.00" file="./spec/bank/saque_cp_spec.rb" time="0.000041"></testcase>
+<testcase classname="spec.index_spec" name="suite rspec mult de valores" file="./spec/index_spec.rb" time="0.000036"></testcase>
+</testsuite>
